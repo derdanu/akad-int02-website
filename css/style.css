@@ -1,0 +1,22 @@
+body {
+	margin: 20px;
+	background-color: white;
+}
+#menu {
+	float: left;
+	width: 150px;
+	height: 300px;
+	margin-right: 20px;
+	background-color: #ffcc00;
+}
+#menu ul {
+	list-style: none;
+	margin: 0px; 	
+	padding: 10px;
+}
+#inhalt {
+ 	float: left;
+ 	width: 600px;
+	background-color: #ffffc6;
+	padding: 10px;
+}
