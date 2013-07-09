@@ -11,7 +11,7 @@
 			<li><a href="index.php">Home</a></li>
 			<li><a href="?seite=1">1</a></li>
 			<li><a href="?seite=2">2</a></li>
-		<ul>	
+		</ul>	
 	</div>
 
 	<div id="inhalt">
