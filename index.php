@@ -3,11 +3,11 @@
 <head>
 	<title>Busunternehmen - Max Mustermann</title>
 	<meta name="language" content="de">
-	<meta name="keywords" content="Suchbegriffe">
-	<meta name="description" content="Beschreibung">
+	<meta name="keywords" content="Busunternehmen Max Musterman Ferien ERholung">
+	<meta name="description" content="Internetauftritt der Firma Max Mustemann">
 	<meta name="robots" content="index,follow">
 	<meta name="audience" content="alle">
-	<meta name="page-topic" content="Website INT02">
+	<meta name="page-topic" content="Busunternehmen - Max Mustermann">
 	<meta name="revisit-after" CONTENT="7 days">	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
