@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title>Website INT02</title>
+	<title>Busunternehmen - Max Mustermann</title>
 	<meta name="language" content="de">
 	<meta name="keywords" content="Suchbegriffe">
 	<meta name="description" content="Beschreibung">
