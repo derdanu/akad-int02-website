@@ -16,8 +16,11 @@
 	<div id="menu">
 		<ul>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="?seite=1">1</a></li>
-			<li><a href="?seite=2">2</a></li>
+			<li><a href="?seite=ueberuns">&Uuml;ber uns</a></li>
+			<li><a href="?seite=informationen">Informationen</a></li>
+			<li><a href="?seite=reiseziele">Reiseziele</a></li>
+			<li><a href="?seite=buchung">Buchung</a></li>
+			<li><a href="?seite=impressum">Impressum</a></li>
 		</ul>	
 	</div>
 
@@ -25,11 +28,20 @@
 	<?php 
 		switch ($_GET['seite']) {
 
-			case "1":
-				require("include/1.html");
+			case "ueberuns":
+				require("include/ueberuns.html");
 				break;
-			case "2":
-				require("include/2.html");
+			case "informationen":
+				require("include/informationen.html");
+				break;
+			case "reiseziele":
+				require("include/reiseziele.html");
+				break;
+			case "buchung":
+				require("include/buchung.html");
+				break;
+			case "impressum":
+				require("include/impressum.html");
 				break;
 			default:
 				require("include/inhalt.html");
