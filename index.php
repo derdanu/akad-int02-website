@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-        <title>Reiseunternehmen Max Mustermann - Bequeme Busreisen</title>
+        <title>Mega Busreisen - Max Mustermann - Bequeme Busreisen</title>
         <meta name="language" content="de">
         <meta name="keywords" content="Reiseunternehmen Max Mustermann, Ferien, Erholung, Busreisen, Urlaubsreise">
         <meta name="description" content="Busreisen zu schönen Urlaubszielen. Das Reiseunternehmen Max Mustermann bringt Sie zu den schönsten Reisezielen in bequemen Reisebussen.">
