@@ -24,6 +24,7 @@ body {
         padding: 5px;
 }
 #menu a {
+	display: block;
         color: #ffffff;
         text-decoration: none;
 }
@@ -32,7 +33,7 @@ body {
         text-decoration: none;
 }
 #menu a:visited {
-        color: #ffffff;
+        color: #000000;
 }
 #menu a:hover {
         color: #000000;
