@@ -1,6 +1,7 @@
 body {
         margin: auto;
         width: 1000px;
+        margin-left: -350px;
         left: 50%;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
@@ -12,7 +13,7 @@ body {
         float: left;
         width: 150px;
         height: 220px;
-        margin-right: auto;
+        margin-right: 20px;
         padding-top: 10px;
         background-color: #ffffff;
         -webkit-box-shadow: 3px 3px 4px #000000;
