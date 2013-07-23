@@ -43,3 +43,11 @@ body {
 	-webkit-box-shadow: 3px 3px 4px #000000;
 	box-shadow: 3px 3px 4px #000000;
 }
+
+#inhalt form textarea, input, select {
+	background: white;
+	border: 1px solid black;
+}
+#inhalt form input.error, select.error {
+	border: 2px solid red;
+}

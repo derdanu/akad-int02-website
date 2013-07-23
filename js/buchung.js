@@ -1,33 +1,48 @@
 function checkForm() {
 
 	error = new Array();
-	
-	if (document.getElementById('reiseziel').selectedIndex == 0) {
 
+	var reiseziel = document.getElementById('reiseziel');
+	var vorname = document.getElementById('vorname');
+	var nachname = document.getElementById('nachname');
+	var email = document.getElementById('email');
+
+	reiseziel.className = '';
+	vorname.className = '';
+	nachname.className = '';
+	email.className = '';
+	
+	if (reiseziel.selectedIndex == 0) {
+
+		reiseziel.className = 'error';
 		error.push('* Reiseziel');
 
 	}
 
-	if (document.getElementById('vorname').value == '') {
+	if (vorname.value == '') {
 
+		vorname.className = 'error';
 		error.push('* Vorname');
 
 	}
 
-	if (document.getElementById('nachname').value == '') {
+	if (nachname.value == '') {
 
+		nachname.className = 'error';
 		error.push('* Nachname');
 
 	}
 
-	if (document.getElementById('email').value == '') {
+	if (email.value == '') {
 
+		email.className = 'error';
 		error.push('* Email');
 
 	}
 
-	if (document.getElementById('email').value.indexOf('@') == -1) {
+	if (email.value.indexOf('@') == -1) {
 
+		email.className = 'error';
 		error.push('* keine g%FCltige Email');
 
 	}
