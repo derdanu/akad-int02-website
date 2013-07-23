@@ -1,8 +1,7 @@
 body {
-        margin:0 auto;
+        margin: auto;
         width: 900px;
         left: 50%;
-        margin-left: -450px;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
         font-size: 16px;
