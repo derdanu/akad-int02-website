@@ -1,7 +1,7 @@
 <?php
-	// false = disable Url Rewriting
-	// true = enable URl Rewriting. .htaccess file needed
-	define(USE_MOD_REWRITE, true);
+        // false = disable Url Rewriting
+        // true = enable URl Rewriting. .htaccess file needed
+        define(USE_MOD_REWRITE, true);
 
                 switch ($_GET['seite']) {
 
@@ -22,6 +22,12 @@
                                                 $title = "Busreise Urlaubsziele - Jetzt Reiseziel auswählen";
                                                 $keywords = "busreise, busreisen, urlaub, urlaubsziel, urlaubsziele, mega busreisen max mustermann";
                                                 $description = "Wählen Sie Ihre Busreise aus. Sie können aus unterschiedlichen Busreisen ein Urlaubsziel auswählen und wir bringen Sie sicher und schnell ans Ziel.";
+                                                break;
+                                case "unterkuenfte": // Unterkünfte
+                                                $site = "include/unterkuenfte.html";
+                                                $title = "Übersicht der Unterkünfte bei Ihren Reisezielen";
+                                                $keywords = "unterkünfte der reiseziele, hotel, hotelzimmer, ferienhaus, ferienhäuser, unterkunft bei busreise";
+                                                $description = "Eine angenehme Busreise und dann in tollen Unterkünften nächtigen. Hier finden Sie eine Übersicht über die verschiedenen Unterkünften der Reiseziele";
                                                 break;
                                 case "buchung": //Buchung
                                                 $site = "include/buchung.html";
@@ -68,6 +74,7 @@
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "ueberuns.html" : "?seite=ueberuns"?>">&Uuml;ber uns</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "informationen.html" : "?seite=informationen"?>">Informationen</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "reiseziele.html" : "?seite=reiseziele"?>">Reiseziele</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "unterkuenfte.html" : "?seite=unterkuenfte"?>">Unterkünfte</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "buchung.html" : "?seite=buchung"?>">Buchung</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "impressum.html" : "?seite=impressum"?>">Impressum</a></li>
                 </ul>
