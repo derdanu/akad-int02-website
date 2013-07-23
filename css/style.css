@@ -1,73 +1,72 @@
 body {
-	margin: 0px;
-	background-color: white;
-	font-family: Arial, Helvetica, Tahoma, sans-serif;
-	font-size: 16px;
+        margin: 0px;
+        background-color: white;
+        font-family: Arial, Helvetica, Tahoma, sans-serif;
+        font-size: 16px;
 }
 #menu {
-	float: left;
-	width: 150px;
-	height: 250px;
-	margin-right: 20px;
-	padding-top: 10px;
-	background-color: #ffcc00;
-	-webkit-box-shadow: 3px 3px 4px #000000;
-	box-shadow: 3px 3px 4px #000000;
+        float: left;
+        width: 150px;
+        height: 250px;
+        margin-right: 20px;
+        padding-top: 10px;
+        background-color: #ffcc00;
+        -webkit-box-shadow: 3px 3px 4px #000000;
+        box-shadow: 3px 3px 4px #000000;
 
 }
 #menu ul {
-	list-style: none;
-	margin: 0px; 	
-	padding: 10px;
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
 }
 #menu li {
-	padding: 5px;
+        padding: 5px;
 }
 #menu a {
-	color: #ffffff;
-	text-decoration: none;
+        color: #000000;
+        text-decoration: none;
 }
 #menu a:link {
-	color: #ffffff;
-	text-decoration: none;
+        color: #ffffff;
+        text-decoration: none;
 }
 #menu a:visited {
-	color: #ffffff;
+        color: #ffffff;
 }
 #menu a:hover {
-	color: #000000;
-	background-color: #ffffc6;
+        color: #000000;
+        background-color: #ffffc6;
 }
 
 #inhalt {
- 	float: left;
- 	width: 600px;
-	background-color: #ffffc6;
-	padding: 0px 10px 20px 10px;
-	margin-bottom: 20px;
-	-webkit-box-shadow: 3px 3px 4px #000000;
-	box-shadow: 3px 3px 4px #000000;
+         float: left;
+         width: 600px;
+        background-color: #ffffc6;
+        padding: 0px 10px 20px 10px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 3px 3px 4px #000000;
+        box-shadow: 3px 3px 4px #000000;
 }
 
 #inhalt form textarea, input, select {
-	background: white;
-	border: 1px solid black;
+        background: white;
+        border: 1px solid black;
 }
 #inhalt form input.error, select.error {
-	border: 2px solid red;
+        border: 2px solid red;
 }
 
-#inhalt fieldset { 
-	border: 1px solid #00000; 
-	border-radius: 6px; 
-	background: white; 
-} 
+#inhalt fieldset {
+        border: 1px solid #00000;
+        border-radius: 6px;
+        background: white;
+}
 
 #inhalt table {
-	font-size: 14px;
+        font-size: 14px;
 }
 
 .mandatory {
-	color: red;
+        color: red;
 }
-
