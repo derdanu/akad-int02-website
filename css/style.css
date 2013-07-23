@@ -1,6 +1,7 @@
 body {
+        float: center;
         margin: auto;
-        width: 1000px;
+        width: 850px;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
         font-size: 16px;
