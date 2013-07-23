@@ -4,10 +4,9 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} [a-zA-Z0-9]+.int02.studieren-und-arbeiten.de
 RewriteCond %{REQUEST_URI} !^/int02/
 RewriteRule ^(.*)$ /int02/$1 [L]
-RewriteCond %{QUERY_STRING} param1=[0-9]+
-RewriteRule .* http://www.int02.studieren-und-arbeiten.de/? [L]
+#RewriteCond %{QUERY_STRING} param1=[0-9]+
+#RewriteRule .* http://www.int02.studieren-und-arbeiten.de/? [L]
 
-Options +FollowSymlinks
 
 # unterbindet, das fremde Seiten geladen werden
 RewriteCond %{QUERY_STRING} ^(.*)=http://(.*) [OR]
@@ -82,7 +81,6 @@ RewriteRule ^.* - [F]
 #RewriteCond %{HTTP_HOST} int02.studieren-arbeiten.de
 #RewriteCond %{REQUEST_URI} !^/int02/
 #RewriteRule ^(.*)$ /ordner/$1 [L]
-
 
 
 
