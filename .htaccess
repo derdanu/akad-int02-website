@@ -1,78 +1,8 @@
 RewriteEngine on
-
-RewriteBase /
-
-# unterbindet, das fremde Seiten geladen werden
-RewriteCond %{QUERY_STRING} ^(.*)=http://(.*) [OR]
-# blockiert libwww (Ausgangspunkt für diverse Hackversuche)
-RewriteCond %{HTTP_USER_AGENT} ^libwww [OR]
-# Blockiert Skripte, die versuchen, base64 encodierten Unsinn via URL zu versenden
-RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
-# Blockiert Skripte, die einen a ********** Tag in der URL enthalten
-RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
-# Blockiert Skripte, die versuchen, PHP GLOBALS Variablen via URL zu verändern
-RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
-# Blockiert Skripte, die versuchen, eine _REQUEST Variable via URL zu verändern
-RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2}) [OR]
-# Spambots nach User_agent aussperren
-RewriteCond %{HTTP_USER_AGENT} ^.*Whacker.*$ [OR]
-RewriteCond %{HTTP_USER_AGENT} ^EmailCollector [OR]
-RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
-RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]
-RewriteCond %{HTTP_USER_AGENT} ^.*FileHound.*$ [OR]
-RewriteCond %{HTTP_USER_AGENT} ^.*TurnitinBot.*$ [OR]
-RewriteCond %{HTTP_USER_AGENT} ^.*JoBo.*$ [OR]
-RewriteCond %{HTTP_USER_AGENT} ^.*adressendeutschland.*$
-RewriteRule ^.* - [F]
-
-#### stört die Weiterleitung auf www.... gehört weiter unten hin, s. u.
-# 301 Redirect all requests that don't contain a dot or trailing slash to
-# include a trailing slash
-#RewriteCond %{REQUEST_URI} !/$
-#RewriteCond %{REQUEST_URI} !\.
-
-## Regel für Umleitung (301) von kostenlos-vergleichen.com nach www.kostenlos-vergleichen.com
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
-
-RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{REQUEST_URI} !\.
-RewriteCond %{REQUEST_METHOD} !POST$
-RewriteRule ^(.*) %{REQUEST_URI}/ [NE,R=301,L]
-
-## Regeln für Umleitungen (301) auf die Domain int02.studieren-und-arbeiten.de
-RewriteCond %{REQUEST_URI} ^/$
-RewriteCond %{HTTP_HOST} ^www\.int02.studieren-und-arbeiten\.de
-RewriteCond %{HTTP_HOST} !^www\.int02.studieren-und-arbeiten\.de
-RewriteRule ^(.+)$ http://www.int02.studieren-und-arbeiten%{REQUEST_URI} [NE,R=301,L,NC]
-
-#RewriteCond %{REQUEST_METHOD} !POST$
-#RewriteRule ^(.*) %{REQUEST_URI}/ [R=301,L]
-
-### Stört Weiterleitung auf www nicht, aber dadurch wird das Laden langsamer
-# Rewrites urls in the form of /parent/child/
-# but only rewrites if the requested URL is not a file or directory
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ index.php?page=$1 [QSA]
+Options +FollowSymlinks
+RewriteCond %{HTTP_HOST} int02.studieren-arbeiten.de
+RewriteCond %{REQUEST_URI} !^/int02/
+RewriteRule ^(.*)$ /ordner/$1 [L]
 
 
-# Fehler werden nicht angezeigt
-#    php_flag display_startup_errors 0
-    php_flag display_errors 0
-#    php_flag html_errors 0
-#    php_value docref_root 0
-#    php_value docref_ext 0
 
-
-# .htaccess für CMS made simple
-#RewriteEngine On
-#RewriteBase /
-#RewriteCond %{REQUEST_URI} !/$
-#RewriteCond %{REQUEST_URI} !\.
-#RewriteCond %{REQUEST_METHOD} !POST$
-#RewriteRule ^(.*) %{REQUEST_URI}/ [NE,R=301]
-#RewriteCond %{REQUEST_FILENAME} !-f [NC]
-#RewriteCond %{REQUEST_FILENAME} !-d [NC]
-#RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
-# EOF
