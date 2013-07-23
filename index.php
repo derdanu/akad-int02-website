@@ -55,7 +55,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--[if IE]>
 	        <link rel="stylesheet" type="text/css" href="css/ie.css">
-	< ![endif]-->
+	<![endif]-->
 </head>
 <body>
 
