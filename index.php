@@ -10,27 +10,27 @@
                                                 break;
                                 case "informationen": //Informationen
                                                 $site = "include/informationen.html";
-                                                $title = "";
-                                                $keywords = "";
-                                                $description = "";
+                                                $title = "Informationen zu Busreisen mit Max Mustermann";
+                                                $keywords = "busreisen, urlaub, busreise, urlaubsreise, max mustermann, mega busreisen max mustermann";
+                                                $description = "Hier finden Sie weitere Informationen zum Ablauf der Busreise. Erfahren Sie mehr über Ihren nächsten Busreise Urlaub. Sie werden sich wohl fühlen.";
                                                 break;
                                 case "reiseziele": //Reiseziele
                                                 $site = "include/reiseziele.html";
-                                                $title = "";
-                                                $keywords = "";
-                                                $description = "";
+                                                $title = "Busreise Urlaubsziele - Jetzt Reiseziel auswählen";
+                                                $keywords = "busreise, busreisen, urlaub, urlaubsziel, urlaubsziele, mega busreisen max mustermann";
+                                                $description = "Wählen Sie Ihre Busreise aus. Sie können aus unterschiedlichen Busreisen ein Urlaubsziel auswählen und wir bringen Sie sicher und schnell ans Ziel.";
                                                 break;
                                 case "buchung": //Buchung
                                                 $site = "include/buchung.html";
-                                                $title = "";
-                                                $keywords = "";
-                                                $description = "";
+                                                $title = "Busreise buchen - Buchen Sie hier Ihre Busreise";
+                                                $keywords = "busreise, busreise buchen, buchungsanfrage busreise, busreise Buchung";
+                                                $description = "Jetzt Busreise auswählen, Buchungsanfrage stellen oder gleich direkt Ihre gewünschte Busreise buchen. Genießen Sie Ihren Urlaub und erleben Sie mehr aus der Nähe.";
                                                 break;
                                 case "impressum": // Impressum
                                                 $site = "include/impressum.html";
-                                                $title = "";
-                                                $keywords = "";
-                                                $description = "";
+                                                $title = "Mega Busreisen Max Musetermann Impressum";
+                                                $keywords = "busreisen max mustermann, max mustermann, mega busreisen max mustermann";
+                                                $description = "Mega Busreisen Max Mustermann Busreisen. Ihr Busreise Unternehmen. Erleben Sie Ihre Busreise ganz anders und fühlen Sie sich bereits beim Einsteigen wie im Urlaub.";
                                                 break;
                                 default: // Home Seite und alle ungueltigen Seiten
                                                 $site = "include/inhalt.html";
