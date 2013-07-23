@@ -23,6 +23,5 @@ body {
  	float: left;
  	width: 600px;
 	background-color: #ffffc6;
-	padding-left: 10px;
-	padding-bottom: 20px;
+	padding: 0px 10px 20px 10px;
 }
