@@ -19,6 +19,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: -40px -40px;
 	opacity: 0.7;
+        border-radius: 6px;
 }
 #menu ul {
         list-style: none;
@@ -53,6 +54,7 @@ body {
         margin-bottom: 20px;
         -webkit-box-shadow: 3px 3px 4px #000000;
         box-shadow: 3px 3px 4px #000000;
+        border-radius: 6px;
 }
 
 #inhalt form textarea, input, select {
