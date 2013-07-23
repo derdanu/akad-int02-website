@@ -3,40 +3,52 @@
 <h1>Buchungsanfrage</h1>
 <form action="" method="post" onsubmit="return checkForm()">
 <fieldset>
-	<legend>Ihre Angaben</legend>
-	<table>
-	<tr>
-		<td><label for="reiseziel">Reiseziel<span class="mandatory">*</span></label></td>
-		<td>
-			<select name="reiseziel" id="reiseziel">
-				<option>Bitte ausw&auml;hlen...</option>
-				<option>Ziel A</option>
-				<option>Ziel B</option>
-				<option>Ziel C</option>
-				<option>Ziel D</option>
-			</select>
-		</td>	
-	</tr>
-	<tr>
-		<td><label for="vorname">Vorname<span class="mandatory">*</span></label></td>
-		<td><input type="text" name="vorname" id="vorname" size="25"></td>	
-	</tr>
-	<tr>
-		<td><label for="nachname">Nachname<span class="mandatory">*</span></label></td>
-		<td><input type="text" name="nachname" id="nachname" size="25"></td>
-	</tr>
-	<tr>
-		<td><label for="email">Email<span class="mandatory">*</span></label></td>
-		<td><input type="text" name="email" id="email" size="25" placeholder="benutzer@domain.de"></td>
-	</tr>
-	<tr>
-		<td valign="top"><label for="email">zus&auml;tzliche Angaben</label></td>
-		<td><textarea rows="5" cols="28" name="zusangaben" id="zusangaben"></textarea></td>
-	</tr>
-	<tr>
-		<td><span class="mandatory">*</span> markiert ein Pflichtfeld</td>
-		<td align="right"><input type="submit" name="submit" id="submit" value="Buchen"></td>
-	</tr>
-	</table>
+        <legend>Ihre Angaben</legend>
+        <table>
+        <tr>
+                <td><label for="reiseziel">Reiseziel<span class="mandatory">*</span></label></td>
+                <td>
+                        <select name="reiseziel" id="reiseziel">
+                                <option>Bitte ausw&auml;hlen...</option>
+                                <option>Ziel A</option>
+                                <option>Ziel B</option>
+                                <option>Ziel C</option>
+                                <option>Ziel D</option>
+                        </select>
+                </td>
+        </tr>
+        <tr>
+                <td><label for="vorname">Vorname<span class="mandatory">*</span></label></td>
+                <td><input type="text" name="vorname" id="vorname" size="25"></td>
+        </tr>
+        <tr>
+                <td><label for="nachname">Nachname<span class="mandatory">*</span></label></td>
+                <td><input type="text" name="nachname" id="nachname" size="25"></td>
+        </tr>
+        <tr>
+                <td><label for="strasse">Stra&szlig;e</label></td>
+                <td><input type="text" name="strasse" id="strasse" size="25"></td>
+        </tr>
+        <tr>
+                <td><label for="PLZ, Ort">PLZ, Ort</label></td>
+                <td><input type="text" name="PLZ, Ort" id="PLZ, Ort" size="25"></td>
+        </tr>
+        <tr>
+                <td><label for="email">Email<span class="mandatory">*</span></label></td>
+                <td><input type="text" name="email" id="email" size="25" placeholder="benutzer@domain.de"></td>
+        </tr>
+        <tr>
+                <td><label for="Telefon">Telefon</label></td>
+                <td><input type="text" name="Telefon" id="Telefon" size="25"></td>
+        </tr>
+        <tr>
+                <td valign="top"><label for="email">zus&auml;tzliche Angaben</label></td>
+                <td><textarea rows="5" cols="28" name="zusangaben" id="zusangaben"></textarea></td>
+        </tr>
+        <tr>
+                <td><span class="mandatory">*</span> markiert ein Pflichtfeld</td>
+                <td align="right"><input type="submit" name="submit" id="submit" value="Buchen"></td>
+        </tr>
+        </table>
 </fieldset>
-</form> 
+</form>
