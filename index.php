@@ -1,4 +1,7 @@
 <?php
+	// false = disable Url Rewriting
+	// true = enable URl Rewriting. .htaccess file needed
+	define(USE_MOD_REWRITE, true);
 
                 switch ($_GET['seite']) {
 
@@ -61,12 +64,12 @@
 
         <div id="menu">
                 <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="?seite=ueberuns">&Uuml;ber uns</a></li>
-                        <li><a href="?seite=informationen">Informationen</a></li>
-                        <li><a href="?seite=reiseziele">Reiseziele</a></li>
-                        <li><a href="?seite=buchung">Buchung</a></li>
-                        <li><a href="?seite=impressum">Impressum</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "index.html" : "index.php"?>">Home</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "ueberuns.html" : "?seite=ueberuns"?>">&Uuml;ber uns</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "informationen.html" : "?seite=informationen"?>">Informationen</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "reiseziele.html" : "?seite=reiseziele"?>">Reiseziele</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "buchung.html" : "?seite=buchung"?>">Buchung</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "impressum.html" : "?seite=impressum"?>">Impressum</a></li>
                 </ul>
         </div>
 
