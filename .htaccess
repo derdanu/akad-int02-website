@@ -1,5 +1,11 @@
 RewriteEngine on
+Options +FollowSymlinks
 RewriteBase /
+RewriteCond %{HTTP_HOST} [a-zA-Z0-9]+.int02.studieren-und-arbeiten.de
+RewriteCond %{REQUEST_URI} !^/int02/
+RewriteRule ^(.*)$ /int02/$1 [L]
+RewriteCond %{QUERY_STRING} param1=[0-9]+
+RewriteRule .* http://www.int02.studieren-und-arbeiten.de/? [L]
 
 Options +FollowSymlinks
 
@@ -33,21 +39,22 @@ RewriteRule ^.* - [F]
 #RewriteCond %{REQUEST_URI} !\.
 
 ## Regel für Umleitung (301) von kostenlos-vergleichen.com nach www.kostenlos-vergleichen.com
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ http://www.int02.%{HTTP_HOST}/$1 [R=301,L]
-RewriteCond %{HTTP_HOST} !^/index.php
-RewriteRule ^(.*)$ /$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.int02.%{HTTP_HOST}/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^/index.php
+#RewriteRule ^(.*)$ /$1 [R=301,L]
 
-RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{REQUEST_URI} !\.
-RewriteCond %{REQUEST_METHOD} !POST$
-RewriteRule ^(.*) %{REQUEST_URI}/ [NE,R=301,L]
+#RewriteCond %{REQUEST_URI} !/$
+#RewriteCond %{REQUEST_URI} !\.
+#RewriteCond %{REQUEST_METHOD} !POST$
+#RewriteRule ^(.*) %{REQUEST_URI}/ [NE,R=301,L]
 
 ## Regeln für Umleitungen (301) auf die Domain int02.studieren-und-arbeiten.de
-RewriteCond %{REQUEST_URI} ^/$
-RewriteCond %{HTTP_HOST} ^www\.int02.studieren-und-arbeiten\.de
-RewriteCond %{HTTP_HOST} !^www\.int02.studieren-und-arbeiten\.de
-RewriteRule ^(.+)$ http://www.int02.studieren-und-arbeiten%{REQUEST_URI} [NE,R=301,L,NC]
+#RewriteCond %{REQUEST_URI} ^/$
+#RewriteCond %{HTTP_HOST} ^www\.int02.studieren-und-arbeiten\.de
+#RewriteCond %{HTTP_HOST} !^www\.int02.studieren-und-arbeiten\.de
+#RewriteRule ^(.+)$ http://www.int02.studieren-und-arbeiten%{REQUEST_URI} [NE,R=301,L,NC]
+
 
 
 
