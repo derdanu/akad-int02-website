@@ -51,7 +51,7 @@
         <meta name="audience" content="alle">
         <meta name="page-topic" content="Mega Busreisen - Max Mustermann - Bequeme Busreisen">
         <meta name="revisit-after" CONTENT="7 days">
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
         <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
