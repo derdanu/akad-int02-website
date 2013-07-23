@@ -53,6 +53,9 @@
         <meta name="revisit-after" CONTENT="7 days">
 		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
         <link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if IE]>
+	        <link rel="stylesheet" type="text/css" href="css/ie.css">
+	< ![endif]-->
 </head>
 <body>
 
