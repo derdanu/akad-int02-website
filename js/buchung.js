@@ -26,6 +26,12 @@ function checkForm() {
 
 	}
 
+	if (document.getElementById('email').value.indexOf('@') == -1) {
+
+		error.push('* keine g%FCltige Email');
+
+	}
+
 	if (error.length > 0) {
 
 		var error_header = 'Folgende Pflichfelder sind nicht ausgef%FCllt:\n\n';
