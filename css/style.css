@@ -1,5 +1,5 @@
 body {
-        margin: 0px;
+        margin: 20px;
         width: 1000px;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
@@ -48,8 +48,8 @@ body {
 }
 
 #inhalt {
-         float: left;
-         width: 850px;
+        float: left;
+        width: 850px;
         background-color: #ffffc6;
         padding: 0px 10px 20px 10px;
         margin-bottom: 20px;
