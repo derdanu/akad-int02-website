@@ -35,6 +35,8 @@ RewriteRule ^.* - [F]
 ## Regel für Umleitung (301) von kostenlos-vergleichen.com nach www.kostenlos-vergleichen.com
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ http://www.int02.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^/index.php
+RewriteRule ^(.*)$ /%{HTTP_HOST}/$1 [R=301,L]
 
 RewriteCond %{REQUEST_URI} !/$
 RewriteCond %{REQUEST_URI} !\.
