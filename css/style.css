@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	background-color: white;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
 	font-size: 16px;
 }
 #menu {
@@ -24,7 +24,7 @@ body {
 	padding: 5px;
 }
 #menu a:link{
-	color: #b8b8b8;
+	color: #ffffff;
 	text-decoration: none;
 }
 #menu a:visited{
