@@ -2,38 +2,38 @@
 
 		switch ($_GET['seite']) {
 
-                case "ueberuns": //Überuns
-                        $site = "include/ueberuns.html";
+				case "ueberuns": //Überuns
+						$site = "include/ueberuns.html";
 						$title = "";
 						$keywords = "";
 						$description = "";
-                        break;
-                case "informationen": //Informationen
-                        $site = "include/informationen.html";
+						break;
+				case "informationen": //Informationen
+						$site = "include/informationen.html";
 						$title = "";
 						$keywords = "";
 						$description = "";
-                        break;
-                case "reiseziele": //Reiseziele
-                        $site = "include/reiseziele.html";
+						break;
+				case "reiseziele": //Reiseziele
+						$site = "include/reiseziele.html";
 						$title = "";
 						$keywords = "";
 						$description = "";
-                        break;
-                case "buchung": //Buchung
-                        $site = "include/buchung.html";
+						break;
+				case "buchung": //Buchung
+						$site = "include/buchung.html";
 						$title = "";
 						$keywords = "";
 						$description = "";
-                        break;
-                case "impressum": // Impressum
-                        $site = "include/impressum.html";
+						break;
+				case "impressum": // Impressum
+						$site = "include/impressum.html";
 						$title = "";
 						$keywords = "";
 						$description = "";
-                        break;
-                default: // Home Seite und alle ungueltigen Seiten
-                        $site = "include/inhalt.html";
+						break;
+				default: // Home Seite und alle ungueltigen Seiten
+						$site = "include/inhalt.html";
 						$title = "Mega Busreisen - Max Mustermann - Bequeme Busreisen";
 						$keywords = "Reiseunternehmen Max Mustermann, Ferien, Erholung, Busreisen, Urlaubsreise";
 						$description = "Busreisen zu schönen Urlaubszielen. Das Reiseunternehmen Max Mustermann bringt Sie zu den schönsten Reisezielen in bequemen Reisebussen.";
