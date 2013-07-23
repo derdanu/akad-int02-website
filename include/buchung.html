@@ -6,7 +6,7 @@
 	<legend>Ihre Angaben:</legend>
 	<table>
 	<tr>
-		<td><label for="reiseziel">Reiseziel</label></td>
+		<td><label for="reiseziel">Reiseziel *</label></td>
 		<td>
 			<select name="reiseziel" id="reiseziel">
 				<option>Bitte ausw&auml;hlen...</option>
@@ -18,19 +18,24 @@
 		</td>	
 	</tr>
 	<tr>
-		<td><label for="vorname">Vorname</label></td>
-		<td><input type="text" name="vorname" id="vorname"></td>	
+		<td><label for="vorname">Vorname *</label></td>
+		<td><input type="text" name="vorname" id="vorname" size="25"></td>	
 	</tr>
 	<tr>
-		<td><label for="nachname">Nachname</label></td>
-		<td><input type="text" name="nachname" id="nachname"></td>
+		<td><label for="nachname">Nachname *</label></td>
+		<td><input type="text" name="nachname" id="nachname" size="25"></td>
 	</tr>
 	<tr>
-		<td><label for="email">Email</label></td>
-		<td><input type="text" name="email" id="email"></td>
+		<td><label for="email">Email *</label></td>
+		<td><input type="text" name="email" id="email" size="25"></td>
 	</tr>
 	<tr>
-		<td colspan="2" align="right"><input type="submit" name="submit" id="submit" value="Buchen"></td>
+		<td valign="top"><label for="email">zus&auml;tzliche Angaben</label></td>
+		<td><textarea rows="5" cols="28" name="zusangaben" id="zusangaben"></textarea></td>
+	</tr>
+	<tr>
+		<td>* markiert ein Pflichtfeld</td>
+		<td align="right"><input type="submit" name="submit" id="submit" value="Buchen"></td>
 	</tr>
 	</table>
 </fieldset>
