@@ -7,13 +7,15 @@ body {
 #menu {
         float: left;
         width: 150px;
-        height: 250px;
+        height: 220px;
         margin-right: 20px;
         padding-top: 10px;
-        background-color: #ffcc00;
+        background-color: #ffffff;
         -webkit-box-shadow: 3px 3px 4px #000000;
         box-shadow: 3px 3px 4px #000000;
-
+	background-image: url('../images/badge_yellow.gif');
+	background-repeat: no-repeat;
+	background-position: -40px -40px;
 }
 #menu ul {
         list-style: none;
