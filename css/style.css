@@ -30,7 +30,13 @@ body {
         padding: 5px;
 }
 #menu a {
+>>>>>>>>>>>>>>>>>>>> File 1
 	display: block;
+>>>>>>>>>>>>>>>>>>>> File 2
+	display: block;
+>>>>>>>>>>>>>>>>>>>> File 3
+        display: block;
+<<<<<<<<<<<<<<<<<<<<
         color: #ffffff;
         text-decoration: none;
 }
@@ -48,7 +54,7 @@ body {
 
 #inhalt {
          float: left;
-         width: 600px;
+         width: 850px;
         background-color: #ffffc6;
         padding: 0px 10px 20px 10px;
         margin-bottom: 20px;
@@ -77,4 +83,10 @@ body {
 
 .mandatory {
         color: red;
+>>>>>>>>>>>>>>>>>>>> File 1
 }
+>>>>>>>>>>>>>>>>>>>> File 2
+}
+>>>>>>>>>>>>>>>>>>>> File 3
+}
+<<<<<<<<<<<<<<<<<<<<
