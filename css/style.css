@@ -24,11 +24,11 @@ body {
         padding: 5px;
 }
 #menu a {
-        color: #000000;
+        color: #ffffff;
         text-decoration: none;
 }
 #menu a:link {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
 }
 #menu a:visited {
