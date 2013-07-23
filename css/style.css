@@ -1,5 +1,6 @@
 body {
-        margin: 20px;
+        margin: 0 auto;
+        left: 50%;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
         font-size: 16px;
