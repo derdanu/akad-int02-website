@@ -6,9 +6,13 @@ body {
         background: url(../images/background.jpg) no-repeat center center fixed;
         background-size: cover;
 }
+#container {
+	margin: 0px auto;
+	width: 1000px;
+}
 #menu {
         float: left;
-        width: 150px;
+        width: 120px;
         height: 220px;
         margin-right: 20px;
         padding-top: 10px;
@@ -48,7 +52,7 @@ body {
 
 #inhalt {
         float: left;
-        width: 850px;
+        width: 840px;
         background-color: #ffffc6;
         padding: 0px 10px 20px 10px;
         margin-bottom: 20px;

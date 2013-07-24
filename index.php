@@ -68,6 +68,8 @@
 </head>
 <body>
 
+	<div id="container">
+	
         <div id="menu">
                 <ul>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "index.html" : "index.php"?>">Home</a></li>
@@ -86,5 +88,6 @@
         ?>
         </div>
 
+	</div>
 </body>
 </html>
