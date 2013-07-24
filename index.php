@@ -5,18 +5,6 @@
 
                 switch ($_GET['seite']) {
 
-                                case "ueberuns": //Ueberuns
-                                                $site = "include/ueberuns.html";
-                                                $title = "Mega Busreisen Max Mustermann - Busreise mal anders";
-                                                $keywords = "busreise, busreisen, urlaub, reiseurlaub, max mustermann";
-                                                $description = "Erleben Sie Ihre Busreise mal anders. Wir bieten Ihnen beliebte Urlaubsziele an und bringen Sie bequem und sicher an Ihr gewünschtes Urlaubsziel hin.";
-                                                break;
-                                case "informationen": //Informationen
-                                                $site = "include/informationen.html";
-                                                $title = "Informationen zu Busreisen mit Max Mustermann";
-                                                $keywords = "busreisen, urlaub, busreise, urlaubsreise, max mustermann, mega busreisen max mustermann";
-                                                $description = "Hier finden Sie weitere Informationen zum Ablauf der Busreise. Erfahren Sie mehr über Ihren nächsten Busreise Urlaub. Sie werden sich wohl fühlen.";
-                                                break;
                                 case "reiseziele": //Reiseziele
                                                 $site = "include/reiseziele.html";
                                                 $title = "Busreise Urlaubsziele - Jetzt Reiseziel auswählen";
@@ -34,6 +22,18 @@
                                                 $title = "Busreise buchen - Buchen Sie hier Ihre Busreise";
                                                 $keywords = "busreise, busreise buchen, buchungsanfrage busreise, busreise Buchung";
                                                 $description = "Jetzt Busreise auswählen, Buchungsanfrage stellen oder gleich direkt Ihre gewünschte Busreise buchen. Genießen Sie Ihren Urlaub und erleben Sie mehr aus der Nähe.";
+                                                break;
+                                case "informationen": //Informationen
+                                                $site = "include/informationen.html";
+                                                $title = "Informationen zu Busreisen mit Max Mustermann";
+                                                $keywords = "busreisen, urlaub, busreise, urlaubsreise, max mustermann, mega busreisen max mustermann";
+                                                $description = "Hier finden Sie weitere Informationen zum Ablauf der Busreise. Erfahren Sie mehr über Ihren nächsten Busreise Urlaub. Sie werden sich wohl fühlen.";
+                                                break;
+                                case "ueberuns": //Ueberuns
+                                                $site = "include/ueberuns.html";
+                                                $title = "Mega Busreisen Max Mustermann - Busreise mal anders";
+                                                $keywords = "busreise, busreisen, urlaub, reiseurlaub, max mustermann";
+                                                $description = "Erleben Sie Ihre Busreise mal anders. Wir bieten Ihnen beliebte Urlaubsziele an und bringen Sie bequem und sicher an Ihr gewünschtes Urlaubsziel hin.";
                                                 break;
                                 case "impressum": // Impressum
                                                 $site = "include/impressum.html";
@@ -68,16 +68,16 @@
 </head>
 <body>
 
-	<div id="container">
-	
+        <div id="container">
+
         <div id="menu">
                 <ul>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "index.html" : "index.php"?>">Home</a></li>
-                        <li><a href="<?php print (USE_MOD_REWRITE) ? "ueberuns.html" : "?seite=ueberuns"?>">&Uuml;ber uns</a></li>
-                        <li><a href="<?php print (USE_MOD_REWRITE) ? "informationen.html" : "?seite=informationen"?>">Informationen</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "reiseziele.html" : "?seite=reiseziele"?>">Reiseziele</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "unterkuenfte.html" : "?seite=unterkuenfte"?>">Unterkünfte</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "buchung.html" : "?seite=buchung"?>">Buchung</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "informationen.html" : "?seite=informationen"?>">Informationen</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "ueberuns.html" : "?seite=ueberuns"?>">&Uuml;ber uns</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "impressum.html" : "?seite=impressum"?>">Impressum</a></li>
                 </ul>
         </div>
@@ -88,6 +88,6 @@
         ?>
         </div>
 
-	</div>
+        </div>
 </body>
 </html>
