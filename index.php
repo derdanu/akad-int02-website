@@ -5,7 +5,7 @@
 
                 switch ($_GET['seite']) {
 
-                                case "ueberuns": //Überuns
+                                case "ueberuns": //Ueberuns
                                                 $site = "include/ueberuns.html";
                                                 $title = "Mega Busreisen Max Mustermann - Busreise mal anders";
                                                 $keywords = "busreise, busreisen, urlaub, reiseurlaub, max mustermann";
@@ -23,7 +23,7 @@
                                                 $keywords = "busreise, busreisen, urlaub, urlaubsziel, urlaubsziele, mega busreisen max mustermann";
                                                 $description = "Wählen Sie Ihre Busreise aus. Sie können aus unterschiedlichen Busreisen ein Urlaubsziel auswählen und wir bringen Sie sicher und schnell ans Ziel.";
                                                 break;
-                                case "unterkuenfte": // Unterkünfte
+                                case "unterkuenfte": // Unterkuenfte
                                                 $site = "include/unterkuenfte.html";
                                                 $title = "Übersicht der Unterkünfte bei Ihren Reisezielen";
                                                 $keywords = "unterkünfte der reiseziele, hotel, hotelzimmer, ferienhaus, ferienhäuser, unterkunft bei busreise";
@@ -43,7 +43,7 @@
                                                 break;
                                 default: // Home Seite und alle ungueltigen Seiten
                                                 $site = "include/inhalt.html";
-                                                $title = "Mega Busreisen - Max Mustermann - Bequeme Busreisen";
+                                                $title = "Mega Busreisen Max Mustermann - Bequeme Busreisen";
                                                 $keywords = "Reiseunternehmen Max Mustermann, Ferien, Erholung, Busreisen, Urlaubsreise";
                                                 $description = "Busreisen zu schönen Urlaubszielen. Das Reiseunternehmen Max Mustermann bringt Sie zu den schönsten Reisezielen in bequemen Reisebussen.";
         }
