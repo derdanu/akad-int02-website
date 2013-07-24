@@ -91,7 +91,7 @@
 
         </div>
 
-	<div id="footer">Copyright 2013 - Mega Busreisen Max Mustermann </div>
+	<div id="footer"><center>Copyright 2013 - Mega Busreisen Max Mustermann</center></div>
 
 
 </body>

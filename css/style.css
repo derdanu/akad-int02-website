@@ -80,11 +80,13 @@ body {
 
 #footer {
 	position: fixed;
-	background-color: #ffffff;
+	background-color: #eeeeee;
 	bottom: 0px;
-	width: 100%;
-	margin: 0px;
+	left: 0px;
+	right: 0px;
 	font-size: 12px;
+        opacity: 0.7;
+	padding: 2px;
 }
 
 .mandatory {
