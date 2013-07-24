@@ -1,10 +1,10 @@
 body {
-        margin: 20px;
         background-color: white;
         font-family: Arial, Helvetica, Tahoma, sans-serif;
         font-size: 16px;
         background: url(../images/background.jpg) no-repeat center center fixed;
         background-size: cover;
+	heigth: 100%;
 }
 #container {
 	margin: 0px auto;
@@ -76,6 +76,15 @@ body {
 #inhalt table {
         border-collapse: collapse;
         font-size: 14px;
+}
+
+#footer {
+	position: fixed;
+	background-color: #ffffff;
+	bottom: 0px;
+	width: 100%;
+	margin: 0px;
+	font-size: 12px;
 }
 
 .mandatory {

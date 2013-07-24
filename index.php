@@ -68,6 +68,7 @@
 </head>
 <body>
 
+
         <div id="container">
 
         <div id="menu">
@@ -89,5 +90,9 @@
         </div>
 
         </div>
+
+	<div id="footer">Copyright 2013 - Mega Busreisen Max Mustermann </div>
+
+
 </body>
 </html>
