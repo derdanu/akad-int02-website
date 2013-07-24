@@ -55,7 +55,6 @@ body {
         background-color: #ffffc6;
         padding: 0px 10px 20px 10px;
         margin-bottom: 20px;
-        -webkit-box-shadow: 3px 3px 4px #000000;
         box-shadow: 3px 3px 4px #000000;
         border-radius: 6px;
 }
