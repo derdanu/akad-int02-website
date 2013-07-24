@@ -5,11 +5,10 @@ body {
         font-size: 16px;
         background: url(../images/background.jpg) no-repeat center center fixed;
         background-size: cover;
-	width: 99%;
 }
 #container {
 	margin: 0px auto;
-	width: 1000px;
+	width: 950px;
 }
 #menu {
         float: left;
@@ -53,7 +52,7 @@ body {
 
 #inhalt {
         float: left;
-        width: 840px;
+        width: 780px;
         background-color: #ffffc6;
         padding: 0px 10px 20px 10px;
         margin-bottom: 20px;
