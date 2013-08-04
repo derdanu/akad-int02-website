@@ -37,7 +37,7 @@
                                                 break;
                                 case "impressum": // Impressum
                                                 $site = "include/impressum.html";
-                                                $title = "Mega Busreisen Max Musetermann Impressum";
+                                                $title = "Mega Busreisen Max Mustermann Impressum";
                                                 $keywords = "busreisen max mustermann, max mustermann, mega busreisen max mustermann";
                                                 $description = "Mega Busreisen Max Mustermann Busreisen. Ihr Busreise Unternehmen. Erleben Sie Ihre Busreise ganz anders und fühlen Sie sich bereits beim Einsteigen wie im Urlaub.";
                                                 break;
