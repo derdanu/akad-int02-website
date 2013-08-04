@@ -6,13 +6,13 @@
                 switch ($_GET['seite']) {
 
                                 case "reiseziele": //Reiseziele
-                                                $site = "include/reiseziele.html";
+                                                $site = "include/reiseziele.php";
                                                 $title = "Busreise Urlaubsziele - Jetzt Reiseziel auswählen";
                                                 $keywords = "busreise, busreisen, urlaub, urlaubsziel, urlaubsziele, mega busreisen max mustermann";
                                                 $description = "Wählen Sie Ihre Busreise aus. Sie können aus unterschiedlichen Busreisen ein Urlaubsziel auswählen und wir bringen Sie sicher und schnell ans Ziel.";
                                                 break;
                                 case "unterkuenfte": // Unterkuenfte
-                                                $site = "include/unterkuenfte.html";
+                                                $site = "include/unterkuenfte.php";
                                                 $title = "Übersicht der Unterkünfte bei Ihren Reisezielen - Max Mustermann";
                                                 $keywords = "unterkünfte der reiseziele, hotel, hotelzimmer, ferienhaus, ferienhäuser, unterkunft bei busreise";
                                                 $description = "Eine angenehme Busreise und dann in tollen Unterkünften nächtigen. Hier finden Sie eine Übersicht über die verschiedenen Unterkünften der Reiseziele";
