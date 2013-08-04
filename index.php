@@ -75,7 +75,7 @@
                 <ul>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "index.html" : "index.php"?>">Home</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "reiseziele.html" : "?seite=reiseziele"?>">Reiseziele</a></li>
-                        <li><a href="<?php print (USE_MOD_REWRITE) ? "unterkuenfte.html" : "?seite=unterkuenfte"?>">Unterkünfte</a></li>
+                        <li><a href="<?php print (USE_MOD_REWRITE) ? "unterkuenfte.html" : "?seite=unterkuenfte"?>">Unterk&uuml;nfte</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "buchung.html" : "?seite=buchung"?>">Buchung</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "informationen.html" : "?seite=informationen"?>">Informationen</a></li>
                         <li><a href="<?php print (USE_MOD_REWRITE) ? "ueberuns.html" : "?seite=ueberuns"?>">&Uuml;ber uns</a></li>
