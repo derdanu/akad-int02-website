@@ -4,7 +4,6 @@
         define(USE_MOD_REWRITE, true);
 
                 switch ($_GET['seite']) {
-
                                 case "reiseziele": //Reiseziele
                                                 $site = "include/reiseziele.php";
                                                 $title = "Busreise Urlaubsziele - Jetzt Reiseziel auswählen";
