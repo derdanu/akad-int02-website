@@ -50,7 +50,7 @@ function checkForm() {
 	if (error.length > 0) {
 		// Ueberschrift definieren
 		var error_header = 'Folgende Pflichfelder sind nicht ausgef%FCllt:\n\n';
-		// PopUp Fenster mit Ueberschrift und allen Fehlern ausgeben
+		// Pop-up Fenster mit Ueberschrift und allen Fehlern ausgeben
 		alert(unescape(error_header + error.join('\n')));
 		// False zurueckgeben, das Formular wird abgebrochen
 		return false;
