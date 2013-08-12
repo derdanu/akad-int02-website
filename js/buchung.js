@@ -56,7 +56,7 @@ function checkForm() {
 		return false;
 	}
 	// Wenn kein Fehler gefunden wurde eine kurze Information ausgeben
-	// Hier koennte auch eine AJAX Aufruf zu einem PHP Script erfolgen, 
+	// Hier koennte auch ein AJAX Aufruf zu einem PHP Script erfolgen, 
 	// welches eine Email versendet oder eine Datenbank befuellt
 	alert('Vielen Dank, Ihre Anfrage wird umgehend bearbeitet.');
 }
