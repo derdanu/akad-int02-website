@@ -11,7 +11,7 @@ function checkForm() {
 	vorname.className = '';
 	nachname.className = '';
 	email.className = '';
-	// Ueberprüfen ob im Pulldownmenue der ersten Eintrag ausgewaehlt ist
+	// Ueberprüfen ob im Pull-down-Menue der ersten Eintrag ausgewaehlt ist
 	if (reiseziel.selectedIndex == 0) {
 		// Dem Element die CSS Klasse error zuweisen
 		reiseziel.className = 'error';
